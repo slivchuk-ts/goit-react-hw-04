@@ -8,7 +8,7 @@ const SearchBar = ({ onSubmit }) => {
     const handleChange = (e) => setQuery(e.target.value);
     
     const handleSubmit = (e) => {
-        e.preventDefoult();
+        e.preventDefault();
         if (query.trim() === '') {
             toast.error('Please enter a search term.');
             return;

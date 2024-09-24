@@ -1,8 +1,9 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
-    padding: 20px;
-    list-style: none;
-    margin-bottom: 5px;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        list-style: none;
+        padding-left: 0;
+        margin-top: 20px;
 }

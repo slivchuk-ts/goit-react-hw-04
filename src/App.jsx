@@ -53,7 +53,7 @@ const App=()=> {
   const handleLoadMore = () => setPage((prevPage) => prevPage + 1);
 
   return (
-    <div className={s.container}>
+    <div >
       <SearchBar onSubmit={handleSearch} />
       {error && <ErrorMessage message={error} />}
       <ImageGallery images={images} onImageClick={handleImageClick} />

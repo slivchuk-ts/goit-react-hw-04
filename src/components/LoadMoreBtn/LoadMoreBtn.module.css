@@ -1,17 +1,22 @@
-
-
 .button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #f50057;
-    border: none;
-    border-radius: 4px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
     cursor: pointer;
+    color: black;
+    outline: none;
+    background-color: lightgrey;
 }
 
-.button:hover {
-    background-color: #eb1563;
+button:hover{
+    background-color: gray;
 }

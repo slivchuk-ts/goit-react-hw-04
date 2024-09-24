@@ -9,7 +9,7 @@ export const fetchImages = async (query, page = 0, ) => {
     params: {
       query: query,
       page: page,
-      per_page: 12,
+      per_page: 9,
       client_id: "zZL_BEUI-CuVCBOx4CeaaPewaRRig9MUB2PbnlBKFxk",
     },
   });
